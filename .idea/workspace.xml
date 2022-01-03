@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d67af25-390f-46f7-8d68-cbf316c5f2a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/repos.js" afterDir="false" />
+    <list default="true" id="7d67af25-390f-46f7-8d68-cbf316c5f2a6" name="Default Changelist" comment="tests are added">
+      <change afterPath="$PROJECT_DIR$/src/components/alert.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/card.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/repos.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/search.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/information.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/routerApp.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +54,34 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="npm.test">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -56,7 +92,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1636004780930</updated>
-      <workItem from="1636004782621" duration="29281000" />
+      <workItem from="1636004782621" duration="29976000" />
+      <workItem from="1636219975352" duration="210000" />
+      <workItem from="1641203750022" duration="13524000" />
     </task>
     <servers />
   </component>
@@ -68,10 +106,16 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tests are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="tests are added" />
   </component>
 </project>
